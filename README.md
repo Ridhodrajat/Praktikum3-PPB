@@ -1,4 +1,4 @@
-# Praktikum 2 - Pemrograman Perangkat Bergerak
+# Praktikum 3 - Pemrograman Perangkat Bergerak
 
 ## Author Information
 Nama        : Ridho Drajat
