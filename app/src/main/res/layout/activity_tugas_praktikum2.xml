@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".TugasPraktikum2">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tugas 1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/lampuoff"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_lamp_light_off"
+        android:contentDescription="Lampu" />
+
+    <Button
+        android:id="@+id/bt_turnon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="TURN ON"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Pilih Warna Lampu (Aktif Ketika Lampu Nyala)"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_warna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_putih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Putih"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb_kuning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuning" />
+
+        <RadioButton
+            android:id="@+id/rb_biru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biru" />
+
+    </RadioGroup>
+
+</LinearLayout>
